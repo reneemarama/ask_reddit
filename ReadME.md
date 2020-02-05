@@ -15,17 +15,17 @@ Links to Jupyter Notebooks:
 
 [Scraping](./1_scraping_Reddit_project_3.ipynb)
 
-[Cleaning and EDA](./2_Cleaning_Eda_Reddit_Project 3.ipynb)
+[Cleaning and EDA](./2_Cleaning_Eda_Reddit_Project_3.ipynb)
 
 [Modeling](./3_Modeling_Reddit_Project_3.ipynb)
 
-10,000 of the most recent posts from both threads were collected through Pushshift’s API and converted to a DataFrame in Jupyter Notebook. Though the original data had dozens of features, only four were selected for analysis and cleaning: `created_utc` - the date the post was created, `title` - the title of the post, `selftext` the post content, and `subreddit` - the subreddit the content came from. The `title` and `selftext` features were then combined into one `all_text` feature. ‘All text’ was subsequently cleaned for analysis by removing formatting and punctuation, leaving only words and letter characters (acronyms, typos etc). 
+10,000 of the most recent posts from both threads were collected through Pushshift’s API and converted to a DataFrame in Jupyter Notebook. Though the original data had dozens of features, only four were selected for analysis and cleaning: `created_utc` - the date the post was created, `title` - the title of the post, `selftext` the post content, and `subreddit` - the subreddit the content came from. The `title` and `selftext` features were then combined into one `all_text` feature. `all_text` was subsequently cleaned for analysis by removing formatting and punctuation, leaving only words and letter characters (acronyms, typos etc). 
 
 ##### **Who’s Asking:**
 
 In general, men are asking in AskMen and women are asking in AskWomen, though occasionally a woman or non-binary person will pose a question in AskMen and vice versa. This information was gathered through examining samples of the syntax in posts. For example, questions that were posed as “Hey fellas... “ or “Hey ladies…” reflect syntax used when one felt a part of the group. On the other hand, “What do men think about…” or, “As a woman, what do you think about…,” indicates that the user did not identify with the group. Though rarely observed, users sometimes self-identified their gender status in their posts. 
 
-##### **In general, users asked about relationships, sex, friends, dating, and hair.** 
+#### **In general, users asked about relationships, sex, friends, dating, and hair.** 
 
 ##### **The Most Common Words Observed in AskMen:**
 
