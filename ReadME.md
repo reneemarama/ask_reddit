@@ -14,15 +14,15 @@ For this month’s event, A Data Company is analyzing discussion boards on Reddi
 
 In this project I have been asked by Data for Good to delve into AskMen and AskWomen, both popular subreddits, to answer the following: 
 
-##### Which gender is asking in AskMen and in AskWomen? 
+- Which gender is asking in AskMen and in AskWomen? 
 
-###### What are the most common topics users are asking? 
+- What are the most common topics users are asking? 
 
-###### What are the similarities between AskMen and AskWomen? 
+- What are the similarities between AskMen and AskWomen? 
 
-###### What are the differences? 
+- What are the differences? 
 
-##### Are conversations more positive or negative? 
+- Are conversations more positive or negative? 
 
 ### **The Data:**
 
