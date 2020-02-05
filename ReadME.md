@@ -60,7 +60,9 @@ Ladies, iud, pill, period, bi, women, bras, wedding, fetish, holiday
 
 ##### **Sentiment Analysis**
 
-(on a scale from -1 to +1, -1 being negative, 0: neutral, and +1: positive) Sentiment was gauged by the Natural Language Tookit’s (NLTK) built-in sentiment analysis tool which ranked each word as positive, negative or neutral and aggregated a score for the overall text. 
+(on a scale from -1 to +1, -1 being negative, 0: neutral, and +1: positive) 
+
+Sentiment was gauged by the Natural Language Tookit’s (NLTK) built-in sentiment analysis tool which ranked each word as positive, negative or neutral and aggregated a score for the overall text. 
 
 Overall: 0.16
 
