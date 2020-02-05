@@ -1,0 +1,102 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 # OSX DS Store\
+.DS_Store\
+\
+# Byte-compiled / optimized / DLL files\
+__pycache__/\
+*.py[cod]\
+*$py.class\
+\
+# C extensions\
+*.so\
+\
+# Distribution / packaging\
+.Python\
+env/\
+build/\
+develop-eggs/\
+dist/\
+downloads/\
+eggs/\
+.eggs/\
+lib/\
+lib64/\
+parts/\
+sdist/\
+var/\
+*.egg-info/\
+.installed.cfg\
+*.egg\
+\
+# PyInstaller\
+#  Usually these files are written by a python script from a template\
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.\
+*.manifest\
+*.spec\
+\
+# Installer logs\
+pip-log.txt\
+pip-delete-this-directory.txt\
+\
+# Unit test / coverage reports\
+htmlcov/\
+.tox/\
+.coverage\
+.coverage.*\
+.cache\
+nosetests.xml\
+coverage.xml\
+*,cover\
+.hypothesis/\
+\
+# Translations\
+*.mo\
+*.pot\
+\
+# Django stuff:\
+*.log\
+local_settings.py\
+\
+# Flask stuff:\
+instance/\
+.webassets-cache\
+\
+# Scrapy stuff:\
+.scrapy\
+\
+# Sphinx documentation\
+docs/_build/\
+\
+# PyBuilder\
+target/\
+\
+# IPython Notebook\
+*.ipynb_checkpoints\
+\
+# pyenv\
+.python-version\
+\
+# celery beat schedule file\
+celerybeat-schedule\
+\
+# dotenv\
+.env\
+\
+# virtualenv\
+venv/\
+ENV/\
+\
+# Spyder project settings\
+.spyderproject\
+\
+# Rope project settings\
+.ropeproject\
+}
