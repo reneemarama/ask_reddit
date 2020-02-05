@@ -1,13 +1,28 @@
 ### **The Problem:**
 
-Data for Good is hosting their monthly event *Talk Data to Me* which explores popular topics and the similarities and nuances of different social demographics. The event is highly curated for individuals who have high social compassion, responsibility and respect for groups other than their own. Talk Data to Me hosts H.R., marketing, and product development managers as well as entrepreneurs and non-profit leaders. Attendees are free to use insights at their discretion.
+A Data Company is hosting their monthly event *Talk Data to Me* which explores popular topics and the similarities and nuances of different social demographics. The event is highly curated for individuals who have high social compassion, responsibility and respect for groups other than their own. Talk Data to Me hosts H.R., marketing, and product development managers as well as entrepreneurs and non-profit leaders. Attendees are free to use insights at their discretion.
 
 ### **Getting the Insights:** 
 
-For this month’s event, Data for Good is analyzing discussion boards on Reddit. These discussion boards provide unique benefits such as: Unfiltered ConversationUnbiased and Unprompted Data (most relevant to the population)Current DataTons of DataQuick and Cheap 
+For this month’s event, A Data Company is analyzing discussion boards on Reddit. These discussion boards provide unique benefits such as: 
+- Unfiltered Conversation 
+- Unbiased and Unprompted Data (most relevant to the population)
+- Current Data
+- Tons of Data
+- Quick
+- Cheap 
 
 In this project I have been asked by Data for Good to delve into AskMen and AskWomen, both popular subreddits, to answer the following: 
-Which gender is asking in AskMen and in AskWomen?What are the most common topics users are asking? What are the similarities between AskMen and AskWomen?What are the differences?Are conversations more positive or negative? 
+
+##### Which gender is asking in AskMen and in AskWomen? 
+
+###### What are the most common topics users are asking? 
+
+###### What are the similarities between AskMen and AskWomen? 
+
+###### What are the differences? 
+
+##### Are conversations more positive or negative? 
 
 ### **The Data:**
 
@@ -45,8 +60,13 @@ Ladies, iud, pill, period, bi, women, bras, wedding, fetish, holiday
 
 ##### **Sentiment Analysis**
 
-(on a scale from -1 to +1, -1 being negative, 0: neutral, and +1: positive)Sentiment was gauged by the Natural Language Tookit’s (NLTK) built-in sentiment analysis tool which ranked each word as positive, negative or neutral and aggregated a score for the overall text. 
-Overall: 0.16Men: 0.18Women: 0.15
+(on a scale from -1 to +1, -1 being negative, 0: neutral, and +1: positive) Sentiment was gauged by the Natural Language Tookit’s (NLTK) built-in sentiment analysis tool which ranked each word as positive, negative or neutral and aggregated a score for the overall text. 
+
+Overall: 0.16
+
+Men: 0.18
+
+Women: 0.15
 
 ![](./Plots/sentiment_histogram.png)
 
