@@ -74,6 +74,6 @@ Women: 0.15
 
 ### Modeling:
 
-##### How Similar are the Subreddits?**
+##### How Similar are the Subreddits?
 
 Machine learning algorithms were used to predict if a post came from the `AskMen` or `AskWomen` subreddit. The original model, using Logistic Regression, was able to accurately predict which subreddit the post came from 67% of the time. To improve the prediction, multiple models including Decision Trees and K-Nearest Neighbors (KNN) were built using a grid search algorithm. Ultimately, a Random Forest model provided the greatest improvement, with a subreddit prediction accuracy of 70%. 
