@@ -44,19 +44,51 @@ In general, men are asking in AskMen and women are asking in AskWomen, though oc
 
 ##### **The Most Common Words Observed in AskMen:**
 
-Friends, Sex, Relationship, Hair School, Girlfriend, Ex, Attractive, Weird, Love, Date, Partner, Weird, Shit, Porn, Dick, Family, Single, Body, College, Married 
+| 1-10         | 11-20      |
+| ------------ | ---------- |
+| Friends      | job        |
+| Sex          | hair       |
+| Relationship | ex         |
+| love         | boyfriend  |
+| help         | days       |
+| friend       | attractive |
+| dating       | male       |
+| advice       | home       |
+| girlfriend   | past       |
+| school       | weird      |
+
+
 
 ##### **The Most Common Words Observed in AskWomen:**
 
-Sex, Relationship, Friend, Men, Love, Ladies, Life, Advice, Work, Date, Period, Hair, Year, Girlfriend, Boyfriend, Pretty, Attractive, Body, Home, Month, Birth Control
+| 1-10         | 11-20      |
+| ------------ | ---------- |
+| sex          | partner    |
+| relationship | hair       |
+| friends      | period     |
+| help         | experience |
+| ladies       | girlfriend |
+| friend       | female     |
+| love         | boyfriend  |
+| advice       | attractive |
+| dating       | days       |
+| date         | male       |
+
+
 
 ##### **Words that Indicated the Post was Most Likely in AskMen** (Common words found in AskMen yet rarely found in AskWomen):
 
-Research, urges, cologne, shit, compliments, dudes, guys, balls, men, fellas
+| erection | fulfill  | spank | research | boner  |
+| -------- | -------- | ----- | -------- | ------ |
+| penis    | catching | dudes | men      | fellas |
+
+
 
 ##### **Words that Indicated the Post was Most Likely in AskWomen** (Common words found in AskWomen yet rarely found in AskMen):
 
-Ladies, iud, pill, period, bi, women, bras, wedding, fetish, holiday
+| ladies | pill | iud  | birth  | women  |
+| ------ | ---- | ---- | ------ | ------ |
+| bras   | whom | led  | period | habits |
 
 ##### **Sentiment Analysis**
 
@@ -77,3 +109,7 @@ Women: 0.15
 ##### How Similar are the Subreddits?
 
 Machine learning algorithms were used to predict if a post came from the `AskMen` or `AskWomen` subreddit. The original model, using Logistic Regression, was able to accurately predict which subreddit the post came from 67% of the time. To improve the prediction, multiple models including Decision Trees and K-Nearest Neighbors (KNN) were built using a grid search algorithm. Ultimately, a Random Forest model provided the greatest improvement, with a subreddit prediction accuracy of 70%. 
+
+**Random Forest model confusion matrix:**
+
+![](./Plots/rf_confusion_matrix.png)
